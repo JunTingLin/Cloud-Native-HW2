@@ -1,0 +1,27 @@
+# .github/ISSUE_TEMPLATE/task.md
+
+name: Task
+description: A specific task or development project.
+title: "[Task] Please briefly describe this task"
+labels: ["task"]
+assignees:
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the content of this task in detail
+
+  - type: input
+    id: task-desc
+    attributes:
+      label: Task Description
+      placeholder: For example: Create a new GitHub Repo as the starting point of the job
+    validations:
+      required: true
+
+  - type: input
+    id: score
+    attributes:
+      label: Score (if any)
+      placeholder: For example: 5 points
