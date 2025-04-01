@@ -1,5 +1,6 @@
 def add(a, b):
     # Return the sum of a and b
+    print("Adding numbers...")
     return a + b
 
 if __name__ == '__main__':
